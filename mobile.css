@@ -1,0 +1,242 @@
+/* #272c30 - #0066b8 - #0098FF - #25252b - #2c2c32 - #bec5cb - #606c76*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2c2c32;
+}
+
+.site-branding a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.site-branding a h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.site-branding a h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.site-branding a img {
+    margin: 10px;
+    width: auto;
+    height: 50px;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #25252b;
+}
+.menu-items li {
+    margin: 0 10px;
+    list-style: none;
+}
+.menu-items li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #0066b8;
+}
+.inspiration p {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.3rem;
+    color: #ccc;
+}
+.inspiration h2 {
+    margin: 0 auto;
+    width: 10%;
+    height: 2px;
+    background-color: yellowgreen;
+}
+.projects {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 0px 10px 20px 10px;
+}
+/* .projects-tittle--container {
+    position: relative;
+}
+.projects-tittle--container a {
+    position: absolute;
+    width: 229px;
+    height: 48px;
+    padding: 15px;
+    top: -25px;
+    left: calc(50% - 114px);
+    background-color: #ff214f;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.projects-tittle--container h2 {
+    position:relative;
+    width: auto;
+    height: 50px;
+    top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+} */
+.projects-cards--container {
+    margin-top: 20px;
+}
+.projects-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 100px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #25252b;
+    border-radius: 5px;
+}
+.projects-detail--card .agency {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/favicon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.projects-detail--card .e-commerce {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/favicon-quindez.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.projects-detail--card .contact {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/ccc-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.projects-detail--card .other {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/several-icon.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.projects--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #606c76;
+}
+.projects--card-body {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.social {
+    width: 100%;
+    height: 40px;
+    background-color: #25252b;
+    text-align: center;
+    color: white;
+}
+.social a {
+    display: inline-block;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.facebook {
+    background-image: url('./assets/icons/facebook.svg');
+}
+.instagram {
+    background-image: url('./assets/icons/instagram.svg');
+}
+.twitter {
+    background-image: url('./assets/icons/twitter.svg');
+}
+.github {
+    background-image: url('./assets/icons/github.svg');
+}
+.whatsapp {
+    background-image: url('./assets/icons/whatsapp.svg');
+}
+.envelope {
+    background-image: url('./assets/icons/envelope-white.svg');
+}
+/* .telephone {
+    background-image: url('./assets/icons/phone-call.svg');
+} */
+.legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.incon-heart {
+    margin: 0 5px;
+    font-size: 1.6rem;
+    color: #0066b8;
+}
+.about-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-title {
+    margin: 40px;
+}
+.about-title h2 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+.about-title p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #606c76;
+}
+.about-container {
+    margin: 40px;
+}
+.about-container h3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #fff;
+}
+.about-container p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #bec5cb;
+}
